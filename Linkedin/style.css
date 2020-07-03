@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left:20px;
+  overflow: hidden;
+  background-color: #3D5A78;
+}
+
+.navBar ul li {
+  float: left;
+}
+a {
+	text-decoration: none;
+}
+.navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navBar ul li a:hover {
+  background-color: #3D5A78;
+}
+
+.linkedin {
+	border: 1px #1689EF solid;
+	padding: 4px;
+	background: #1689EF;
+	border-radius: 2px;
+
+}
+.search {
+	padding-top: 8px;
+	
+}
+
+.home,.userreq,.message,.suitcase,.notif,.navBar input {
+	
+	padding: 5px;
+
+
+}
+
+.roundd img{
+	width: auto;
+	height: 50px;
+	border-radius: 50%
+}
+
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+/************************ Nav Bar endss********************* */
+.container {
+  width: 100%;
+  margin: auto;
+  background-color: #e9ecef;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.row::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.dp img{
+	width: auto;
+	height: 50px;
+	border-radius: 50%
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width:91.66%;}
+.col-12{width: 100%;}
+
+* {
+  box-sizing: border-box;
+}
+
+div .midsec {
+	background: white;
+	box-shadow: 2px 3px 10px 2px; 
+	
+}
+div .mainsec{
+	margin: 0px;
+	padding: 20px;
+}
+.grayy {
+	color: gray;
+}
+
+.nosty {
+	list-style-type: none;
+}
+div .bluee a{
+	color: blue;
+	text-decoration: none;
+}
+
+.whitee {
+	color:white;
+}
+
+div .blackk a {
+	color: black;
+}
+
+.like {
+	border: 1px solid blue ;
+	padding: 3px;
+	background: blue;
+	border-radius: 50%;
+
+}
+.bulb {
+	border: 1px solid yellow ;
+	padding: 3px;
+	background: yellow;
+	border-radius: 50%;
+}
+.heart {
+	border: 1px solid red ;
+	padding: 3px;
+	background: red;
+	border-radius: 50%;
+}
+
+
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  
+  ul .topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
+  
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  ul.topnav.responsive {
+    position: relative;
+  }
+  
+  ul.topnav.responsive li {
+    display: inline;
+    float: none; 
+  }
+  
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  
+  h1.section2Header {
+  font-size: 50px;
+}
+
+	.midsec{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
